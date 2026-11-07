@@ -1,5 +1,5 @@
 // EDIT THESE TWO VALUES BEFORE SHARING
-const recipientName="Someone Special", senderName="Your Well-Wisher";
+const recipientName="My Special and loveliest Dear Richa", senderName="Your Well-Wisher and Pure Hearted Samarth";
 document.getElementById("to").textContent=recipientName;document.getElementById("to2").textContent=recipientName;document.getElementById("from").textContent=senderName;document.getElementById("signoff").textContent="With warm wishes, "+senderName;
 const entry=document.getElementById("entry"),site=document.getElementById("site");
 document.getElementById("enter").onclick=()=>{entry.classList.add("hide");site.classList.add("visible");setTimeout(()=>entry.remove(),1000);burst(innerWidth/2,innerHeight*.4,110)};
